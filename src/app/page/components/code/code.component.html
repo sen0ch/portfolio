@@ -1,0 +1,160 @@
+<!--Code section on dashboard-->
+<div class = "flex-container">
+
+    <div *ngIf="items.length !== 0"> 
+        <textarea rows="20" cols="90">
+        <!--LP HTML-->
+      <div class = "flex-container">
+      
+        <div class="flex-item-left">  
+          <mat-card class="card">
+            <mat-card-header>
+              <mat-card-title>{{items[0].headline}}</mat-card-title>
+              <mat-card-subtitle>{{items[0].description}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="./assets/images/{{items[0].image}}" alt="{{items[0].image}}">
+            <mat-card-content>
+              <p>
+                {{items[0].image}}
+              </p>
+            </mat-card-content>
+          </mat-card>
+        </div>
+        
+        <div class="flex-item-left">  
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[1].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[1].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[1].image}}" alt="{{items[1].image}}">
+          <mat-card-content>
+            <p>
+              {{items[1].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[2].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[2].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[2].image}}" alt="{{items[2].image}}">
+          <mat-card-content>
+            <p>
+              {{items[2].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[3].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[3].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[3].image}}" alt="{{items[3].image}}">
+          <mat-card-content>
+            <p>
+              {{items[3].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[4].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[4].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[4].image}}" alt="{{items[4].image}}">
+          <mat-card-content>
+            <p>
+              {{items[4].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[5].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[5].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[5].image}}" alt="{{items[5].image}}">
+          <mat-card-content>
+            <p>
+              {{items[5].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[6].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[6].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[6].image}}" alt="{{items[6].image}}">
+          <mat-card-content>
+            <p>
+              {{items[6].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[7].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[7].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[7].image}}" alt="{{items[7].image}}">
+          <mat-card-content>
+            <p>
+              {{items[7].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      
+      <div class="flex-item-left">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>{{items[8].headline}}</mat-card-title>
+            <mat-card-subtitle>{{items[8].description}}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="./assets/images/{{items[8].image}}" alt="{{items[8].image}}">
+          <mat-card-content>
+            <p>
+              {{items[8].image}}
+            </p>
+          </mat-card-content>
+        </mat-card>
+        </div>
+      
+      
+    
+    
+      </div>
+    </textarea>
+    
+    
+        <textarea rows="20" cols="50">
+          <!--JSON-->
+          {{ items | json }} 
+          <!--/JSON-->
+        </textarea> 
+    
+    
+    </div>
+    
+    </div>

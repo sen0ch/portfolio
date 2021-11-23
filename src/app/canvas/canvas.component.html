@@ -1,0 +1,30 @@
+
+<div class="main-content">
+    <p>These banners are built using html5 canvas. They are sized at 200% to remain sharp on retina devices. Right click or control click on any banner to download a final banner. </p>
+</div>
+
+
+<div class = "flex-container">
+
+    <div class="items" *ngFor="let item of items">
+        <app-items [item]="item.headline" [id]="item.id" [source]="item.image" [cta]="item.cta"></app-items>   
+        <div>
+        <a routerLink="./detail/{{item.id}}">
+            <button mat-flat-button title="Edit">
+              Edit <mat-icon>edit</mat-icon>
+            </button>
+        </a>
+        </div>
+    </div>
+</div>
+  
+    <div class="main-content">
+        <p>The downloaded image will be 400 x 400. Here is the sample code to display an image:</p>
+        <textarea rows="2" cols="80">
+<img src="./assets/images/ocean-beach.png" alt="Ocean Beach" width="200" height="200">
+        </textarea> <br /><br />
+        <img src="./assets/images/ocean-beach.png" alt="Ocean Beach" width="200" height="200"> 
+    </div>
+
+
+
