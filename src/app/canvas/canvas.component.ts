@@ -18,7 +18,7 @@ export class CanvasComponent implements OnInit {
     }
     getItems(): void {
       this.itemService.getItems()
-        .subscribe(items => this.items = items.slice(0));
+        .subscribe(items => this.items = items);
     }
 
 }

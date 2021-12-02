@@ -11,7 +11,7 @@ export class InMemoryDataService implements InMemoryDbService {
 
       // items
       { id: 0, name: '0', headline: 'Ocean Beach', description: 'Description 0',
-      image: 'waves-at-ocean-beach.jpg', cta: 'call to action', url: 'url 0' },
+      image: 'waves-at-ocean-beach.jpg', cta: 'xxxcall to action', url: 'url 0' },
       { id: 1, name: '1', headline: 'La Jolla Cove', description: 'Description 1',
       image: 'wave-at-la-jolla-cove.jpg', cta: 'call to action' , url: 'url 1'},
       { id: 2, name: '2', headline: 'Big Rocks', description: 'Description 2',
