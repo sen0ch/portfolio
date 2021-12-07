@@ -1,10 +1,11 @@
+<div class = "flex-container"> 
 
 <div *ngIf="item">
   <mat-card class="card">
     
-  <h2>Details 
-    <!--{{item.id}}-->
-  </h2>
+  <!--<h2>Details 
+    {{item.id}}
+  </h2>-->
 
     <mat-form-field class="full-width">
       <mat-label>Headline</mat-label>
@@ -25,10 +26,12 @@
       <mat-label>url</mat-label>
       <input matInput placeholder="http://www.url.com" [(ngModel)]="item.url">
     </mat-form-field>-->
+  </mat-card>
 
-</mat-card>
-<button mat-raised-button (click)="goBack()">Go Back </button>
-<button mat-raised-button (click)="save()">Save <mat-icon>done</mat-icon></button>
+<button mat-flat-button (click)="goBack()">Go Back </button>
+<button mat-flat-button (click)="save()">Save <mat-icon>done</mat-icon></button>
 
+
+</div>
 </div>
 

@@ -4,7 +4,6 @@ import { EmailRoutingModule } from './email-routing.module';
 import { MaterialModule } from '../material.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { EmailComponent } from './email.component';
 import { ItemDetailComponent } from './components/item-detail/item-detail.component';

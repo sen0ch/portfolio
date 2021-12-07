@@ -11,7 +11,7 @@ export class InMemoryDataService implements InMemoryDbService {
 
       // items
       { id: 0, name: '0', headline: 'Ocean Beach', description: 'Description 0',
-      image: 'waves-at-ocean-beach.jpg', cta: 'xxxcall to action', url: 'url 0' },
+      image: 'waves-at-ocean-beach.jpg', cta: 'call to action', url: 'url 0' },
       { id: 1, name: '1', headline: 'La Jolla Cove', description: 'Description 1',
       image: 'wave-at-la-jolla-cove.jpg', cta: 'call to action' , url: 'url 1'},
       { id: 2, name: '2', headline: 'Big Rocks', description: 'Description 2',
@@ -27,7 +27,7 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 7, name: '7', headline: 'Pier Beach', description: 'Description 7',
       image: 'waves-breaking-on-pier-on-beach.jpg', cta: 'call to action', url: 'url 7'  },
       { id: 8, name: '8', headline: 'Pier', description: 'Description 8',
-      image: 'waves-breaking-on-pier-on-beach.jpg', cta: 'call to action', url: 'url 8'  },
+      image: 'waves-breaking-on-pier.jpg', cta: 'call to action', url: 'url 8'  },
 ];
 
     return {items};

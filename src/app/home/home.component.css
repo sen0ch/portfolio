@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   background-color: #f1f1f1;
   margin: 0px;
+  text-align: right;
 }
 .main-content {
     padding:20px;
@@ -12,9 +13,10 @@
     padding: 0px;
   }
 .card {
-    width: 300px;
+    max-width: 350px;
     margin: 20px 0px 20px 20px;
     border: 0;
+    text-align: right;
   }  
 h1 {
     letter-spacing: -1px;
@@ -23,5 +25,8 @@ h1 {
   }
   a {
     text-decoration: none;
-    color: #000; 
+    color: #000;
   }
+  span {
+    text-align: right;
+  } 
