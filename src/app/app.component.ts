@@ -4,7 +4,6 @@ import { MatSidenav } from '@angular/material/sidenav';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  // styleUrls: ['./app.component.scss']
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
@@ -16,10 +15,3 @@ export class AppComponent {
   }
 
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

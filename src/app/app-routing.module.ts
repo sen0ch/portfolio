@@ -24,6 +24,10 @@ const routes: Routes = [
     loadChildren: () => import('./canvas/canvas.module').then(m => m.CanvasModule)
   },
   {
+    path: 'table',
+    loadChildren: () => import('./table/table.module').then(m => m.TableModule)
+  },
+  {
     path: '**',
     redirectTo: 'home',
     pathMatch: 'full'
@@ -38,10 +42,3 @@ const routes: Routes = [
   providers: []
 })
 export class AppRoutingModule { }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

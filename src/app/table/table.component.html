@@ -1,0 +1,22 @@
+<div class="main-content">
+  <p>
+    table works!
+  </p>
+</div>
+
+<table class="mat-elevation-z8">
+  <tr>
+    <td *ngFor = "let column of headers">
+      {{column}}
+    </td>
+  </tr>  
+  <tr *ngFor = "let item of items">
+    <td *ngFor = "let column of headers">
+      {{item[column]}}
+    </td>
+  </tr>
+</table>
+
+
+<!--<app-items></app-items>-->
+<router-outlet></router-outlet>
