@@ -5,3 +5,7 @@
     background-color: #fff;
     text-align: left;
   }
+
+  p {
+    display: inline;
+  }
