@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
       },
     {
       id: 2,
-      image: 'canvas-retina.png',
+      image: 'canvas.png',
       url: 'canvas'
     }
   ];
